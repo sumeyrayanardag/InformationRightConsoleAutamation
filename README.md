@@ -1,15 +1,13 @@
-# RightToInformationAct
-Bilgi Edinme Kanunu Hakkı Projesi
+# RightToInformationAct (Bilgi Edinme Kanunu Hakkı Projesi)
 
-								DATABASE DIAGRAM AND EXPLANATION 
+DATABASE DIAGRAM AND EXPLANATION 
 
-
- 
+![diagram](https://github.com/sumeyrayanardag/RightToInformationAct/assets/45365584/40fc3fd9-c81e-47b8-ab58-f2679d9ca5f3)
 
 
 
-Firstly we create Person table is for holding common properties in “Employee” and “LegalEntity” which holds 
-FullNameAndTitle , eMail, TelephoneNo, Gender, PersonID for indexing each person, Address, City, District, FaxNo, PersonTypeID to decide person is “Gerçek kişi” or “Tüzel kişi” (we take this information from PersonType table with foreign key),  NationalityID to decide if person is Turkish or not (we take this information from NationalityType table with foreign key), EducationStatus, Password and UserName for entering the system, and TCNumber.
+Firstly we create Person table is for holding common properties in “Employee” and “LegalEntity”. Person table holds 
+FullNameAndTitle, eMail, TelephoneNo, Gender, PersonID for indexing each person, Address, City, District, FaxNo, PersonTypeID to decide person is “Gerçek kişi” or “Tüzel kişi” (we take this information from PersonType table with foreign key),  NationalityID to decide if person is Turkish or not (we take this information from NationalityType table with foreign key), EducationStatus, Password and UserName for entering the system, and TCNumber.
 
 Secondly we create PersonType table with columns PersonTypeID and PersonTypeDetail (1->ActualPerson, 2->LegalPerson).
 
