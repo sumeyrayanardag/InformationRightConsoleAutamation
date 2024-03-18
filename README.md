@@ -1,4 +1,4 @@
-# RightToInformationAct (Bilgi Edinme Hakkı Kanunu Projesi)
+# InformationRightConsoleAutamation (Bilgi Edinme Hakkı Kanunu Projesi)
 
 DATABASE DIAGRAM AND EXPLANATION 
 
