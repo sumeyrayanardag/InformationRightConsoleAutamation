@@ -1,4 +1,4 @@
-# RightToInformationAct (Bilgi Edinme Kanunu Hakkı Projesi)
+# RightToInformationAct (Bilgi Edinme Hakkı Kanunu Projesi)
 
 DATABASE DIAGRAM AND EXPLANATION 
 
